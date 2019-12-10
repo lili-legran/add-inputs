@@ -9,17 +9,15 @@ h2 {
   color: #00008b;
 }
 
-.input {
-  &__wrapper {
-    width: 80%;
-    margin: 100px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  &__first-row,
-  &__second-row,
+.inputs {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__first,
+  &__second,
   &__result {
     width: 40%;
     height: 50px;
